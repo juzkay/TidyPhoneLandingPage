@@ -719,6 +719,10 @@ body {
 }
 
 @media (max-width: 640px) {
+    .navbar {
+        position: relative;
+    }
+
     .nav-links {
         display: none;
     }
@@ -734,6 +738,10 @@ body {
     .phone-mockup {
         width: 240px;
         max-width: 100%;
+    }
+
+    .hero-section {
+        padding-top: 0;
     }
 
     .features-section h2,
