@@ -12,14 +12,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// Download button navigation
-document.querySelector('.download-btn-nav').addEventListener('click', function() {
-    const appStoreLink = document.getElementById('app-store-link');
-    if (appStoreLink) {
-        appStoreLink.scrollIntoView({ behavior: 'smooth' });
-    }
-});
-
 // Add scroll effect to navbar (removed - navbar is now transparent)
 
 // Fade in animation on scroll
